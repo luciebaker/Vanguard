@@ -179,3 +179,227 @@ table {
 td,
 th {
   padding: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto; }
+
+.text-center {
+  text-align: center; }
+
+.btn-unique {
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.3rem;
+  height: 45px;
+  background: #AA000A;
+  line-height: 45px !important;
+  padding: 0 20px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  position: relative;
+  border: none;
+  text-decoration: none !important;
+  border-radius: 0 !important; }
+
+.btn-unique-reverse {
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.3rem;
+  height: 45px;
+  background: #AA000A;
+  line-height: 45px !important;
+  padding: 0 20px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  position: relative;
+  border: none;
+  text-decoration: none !important;
+  border-radius: 0 !important; }
+
+.btn-unique-white {
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.3rem;
+  height: 45px;
+  background: #AA000A;
+  line-height: 45px !important;
+  padding: 0 20px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  position: relative;
+  border: none;
+  text-decoration: none !important;
+  border-radius: 0 !important; }
+
+.btn-unique::before {
+  content: '';
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 1px solid #f9f9f9;
+  position: absolute;
+  display: block;
+  left: 2px;
+  top: 2px;
+  text-decoration: none !important; }
+
+.btn-unique-reverse::before {
+  content: '';
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 1px solid #f9f9f9;
+  position: absolute;
+  display: block;
+  left: 1px;
+  top: 1px;
+  text-decoration: none !important; }
+
+.btn-unique-white::before {
+  content: '';
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 1px solid #f9f9f9;
+  position: absolute;
+  display: block;
+  left: 1px;
+  top: 1px;
+  text-decoration: none !important; }
+
+.btn-unique:hover {
+  background: #000;
+  color: #fff; }
+
+.btn-unique-reverse:hover {
+  background: #000;
+  color: #fff; }
+
+.btn-unique-white:hover {
+  background: #000;
+  color: #fff; }
+
+.btn-unique:focus {
+  background: #000;
+  color: #fff; }
+
+.btn-unique-reverse:focus {
+  background: #000;
+  color: #fff; }
+
+.btn-unique-white:focus {
+  background: #000;
+  color: #fff; }
+
+.btn-unique-reverse {
+  background: #000;
+  background: #fff; }
+
+.btn-unique-white {
+  color: #AA000A;
+  background: #fff; }
+
+.btn-unique-white::before {
+  border-color: #AA000A; }
+
+.btn-unique-white:hover {
+  background: #000;
+  border: none;
+  color: #fff; }
+
+.btn-unique-white:focus {
+  background: #000;
+  border: none;
+  color: #fff; }
+
+h1 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 2.618rem; }
+
+h2 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1.618rem; }
+
+h3 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1.2rem; }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #515151;
+  line-height: 1.4rem;
+  margin: 0; }
+
+#nav {
+  background-color: rgba(196, 196, 196, 0.6);
+  position: fixed;
+  width: 100%;
+  height: 75px; }
+
+ul.nav_main {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  padding: 0;
+  margin-top: 8px; }
+  ul.nav_main li {
+    list-style: none; }
+  ul.nav_main a {
+    color: #2b2b2b;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 12px;
+    padding: 5px 25px;
+    text-decoration: none; }
+  ul.nav_main a:hover {
+    border-top: solid 2px #AA000A;
+    border-bottom: solid 2px #AA000A; }
+  ul.nav_main a.nav_logo-img:hover {
+    border-top: none;
+    border-bottom: none; }
+  ul.nav_main a.nav_logo-img {
+    margin-top: 0;
+    padding: 0 30px; }
+  ul.nav_main a.nav_toggle-icon:hover {
+    border-top: none;
+    border-bottom: none; }
+
+li.nav_toggle-icon-resp {
+  display: none; }
+
+@media screen and (max-width: 1050px) {
+  .nav_resp {
+    display: none; }
+  li.nav_toggle-icon-resp {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 15px;
+    padding-right: 10px; } }
+
+.hero_image {
+  max-width: 100%;
+  height: auto; }
+
+#copyright {
+  background-color: #000;
+  height: 30px;
+  font-size: 0.8rem; }
+  #copyright .text-center {
+    color: #c4c4c4;
+    padding-top: 5px; }
+    #copyright .text-center a {
+      color: #c4c4c4; }
